@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Projet [Next.js](https://nextjs.org) en open source, pour de la génération de mot-de-passes sécurisés selon des options choisies. Il mélange Next & Tailwind, avec TypeScript.
+Auteur : ```@yaelbrinkert```
 
 ## Getting Started
 
-First, run the development server:
+Démarrez votre serveur en utilisant les commandes :
 
 ```bash
 npm run dev
-# or
+# ou
 yarn dev
-# or
+# ou
 pnpm dev
-# or
+# ou
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Ouvrez [http://localhost:3000](http://localhost:3000) sur votre navigateur pour tester l'application.
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+Si vous souhaitez en apprendre plus sur les technologies utilisées, voici les documentations utiles.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Next.js Documentation](https://nextjs.org/docs) - Documentation du framework NextJS.
+- [Learn React](https://fr.react.dev/) - Documentation de React.
+- [Learn TypeScript](https://www.typescriptlang.org/docs/) - Documentation de TypeScript.
+- [Tailwind CSS](http://tailwindcss.com/docs/) - Documentation de TailwindCSS.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Vos feed-backs et vos pull requests sont les bienvenues.
 
-## Deploy on Vercel
+## Structure
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+L'application respecte les conventions de nommage et de structure les plus connues pour Next. Un ThemeProvider englobe la totalité des enfants pour ne pas avoir a passer des props partout. L'application Next a été construite autour d'App Router et non Page Router.
